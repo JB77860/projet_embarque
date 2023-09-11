@@ -28,7 +28,8 @@ https://github.com/WiringPi/WiringPi
 
 ## Installation
 
-Installation de la bibliothèque WiringPi
+Installation de Raspberry Pi Imager afin de flasher l'image de l'OS choisi sur la carte SD
+Installation de la bibliothèque WiringPi pour la lecture des ports GPIO
 
 
 
@@ -41,6 +42,5 @@ Installation de la bibliothèque WiringPi
 
 ## Technologies utilisées
 
-* Python pour les tests
-* Langage C pour le code
+* Langage C++ pour le code
 
