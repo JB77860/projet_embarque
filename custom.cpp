@@ -1,12 +1,12 @@
 #include <iostream>
 #include <wiringPi.h>
-#include <unistd.h>
-#include <signal.h>
+#include <unistd.h> // pour utilisation fonction exit()
+#include <signal.h> // pour catcher le signal de fermeture du programme
 using namespace std;
 
 // Fonction de gestion de l'extinction des diodes en fin de programme
 void cleanup(int sig) {
-    cout << "Fin du programme\n";
+    cout << "\nFin du programme\n";
     digitalWrite(13, LOW);
     digitalWrite(19, LOW);
     digitalWrite(26, LOW);
@@ -37,6 +37,7 @@ int main(){
     digitalWrite(19, LOW);
     digitalWrite(26, LOW);
     
+    // Recupère le signal de fermeture du programme
     signal(SIGINT, cleanup);
 
     while(true){
@@ -63,9 +64,5 @@ int main(){
         delay(300);
         }
     }
-    // Eteint toutes les diodes à la fin du programme
-   digitalWrite(13, LOW);
-   digitalWrite(19, LOW);
-   digitalWrite(26, LOW);
    return 0;
 }
