@@ -20,7 +20,6 @@ Télécharger un OS et le mettre sur une carte SD pour pouvoir l'installer sur l
 
 ```
 https://www.raspberrypi.com/software/operating-systems/
-https://www.electro-info.ovh/index.php?id=278
 https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1-7-1-de-raspberry-pi-imager/
 https://github.com/WiringPi/WiringPi
 ```
@@ -28,7 +27,9 @@ https://github.com/WiringPi/WiringPi
 
 ## Installation
 
-Installation de la bibliothèque WiringPi
+Installation de Raspberry Pi Imager afin de flasher l'image de l'OS choisi sur la carte SD  
+Installation de l'OS sur la carte Raspeberry Pi 3 via le lecteur de carte SD  
+Installation de la bibliothèque WiringPi pour la lecture des ports GPIO
 
 
 
@@ -41,6 +42,5 @@ Installation de la bibliothèque WiringPi
 
 ## Technologies utilisées
 
-* Python pour les tests
-* Langage C pour le code
+* Langage C++ pour le code
 
