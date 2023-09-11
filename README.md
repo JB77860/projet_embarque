@@ -24,7 +24,7 @@ https://www.raspberrypi.com/software/operating-systems/
 https://www.electro-info.ovh/index.php?id=278
 http://wiringpi.com/download-and-install/
 https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1-7-1-de-raspberry-pi-imager/
-http://wiringpi.com/
+https://github.com/WiringPi/WiringPi
 ```
 
 
