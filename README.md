@@ -1,8 +1,43 @@
-# projet_embarque
+# Projet Embarqué
+La société Delta2 aimerait mettre au point un système de détection de présence. Pour ce faire un premier prototype est à mettre en œuvre.
 
-Liens utilisés:
+Une carte Raspberry pi3 est utilisée, sur cette carte nous avons un détecteur de mouvement, ainsi qu’un feu tricolore (diodes).
 
+Principe de fonctionnement : 
+Sans détection de présence le feu est vert
+En passant la main devant le détecteur le feu devient orange
+En laissant la main devant le détecteur le feu est rouge.
+
+
+## Collaborateurs du projet
+Mirah - Stanislas - Jérôme
+
+## Prérequis
+Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3
+Le capteur de présence ainsi que les 3 LED vert, orange, rouge 
+Télécharger un OS et le mettre sur une carte SD pour pouvoir l'installer sur la carte 
+
+## Liens utilisés
+
+```
 https://www.raspberrypi.com/software/operating-systems/
-
 https://www.electro-info.ovh/index.php?id=278
 http://wiringpi.com/download-and-install/
+```
+
+Raspi pi imager 1.7.5
+
+
+### Installation
+
+
+
+## Tests
+
+
+
+## Déploiement
+
+
+## Technologies utilisées
+
