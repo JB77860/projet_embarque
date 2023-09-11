@@ -28,6 +28,7 @@ https://github.com/WiringPi/WiringPi
 ## Installation
 
 Installation de Raspberry Pi Imager afin de flasher l'image de l'OS choisi sur la carte SD  
+Installation de l'OS sur la carte Raspeberry Pi 3 via le lecteur de carte SD  
 Installation de la bibliothèque WiringPi pour la lecture des ports GPIO
 
 
