@@ -13,8 +13,7 @@ Principe de fonctionnement :
 Mirah - Stanislas - Jérôme
 
 ## Prérequis
-Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3 :
-  Le capteur de présence ainsi que les 3 LED vert, orange, rouge 
+Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3 : le capteur de présence ainsi que les 3 LED vert, orange, rouge 
 Télécharger un OS et le mettre sur une carte SD pour pouvoir l'installer sur la carte Raspberry Pi 3
 
 ## Liens utilisés
