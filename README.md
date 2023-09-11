@@ -22,8 +22,8 @@ Mirah - Stanislas - Jérôme
 ## Prérequis
 1. Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3 : le capteur de présence ainsi que les 3 LED vert, orange, rouge 
 
-Broche GPIO 20 : Utilisée comme entrée pour la capteur de mouvement
-Broche GPIO 13, 29, 26 : Utilisées comme sorties pour les LED 
+Broche GPIO 20 : Utilisée comme entrée pour la capteur de mouvement  
+Broches GPIO 13, 29, 26 : Utilisées comme sorties pour les LED 
 
 ![kit_composants_GPIO_01](https://github.com/JB77860/projet_embarque/assets/50988564/7df59933-a1eb-46ab-991b-3a7e55154b1a)
 
