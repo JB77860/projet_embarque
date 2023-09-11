@@ -20,6 +20,8 @@ Télécharger un OS et le mettre sur une carte SD pour pouvoir l'installer sur l
 
 ```
 https://www.raspberrypi.com/software/operating-systems/
+https://www.electro-info.ovh/index.php?id=278
+>>>>>>> master
 https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1-7-1-de-raspberry-pi-imager/
 https://github.com/WiringPi/WiringPi
 ```
@@ -43,4 +45,5 @@ Installation de la bibliothèque WiringPi pour la lecture des ports GPIO
 ## Technologies utilisées
 
 * Langage C++ pour le code
+
 
