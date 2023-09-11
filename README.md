@@ -11,10 +11,10 @@ Principe de fonctionnement :
 ## Configuration matérielle
 
 1 Carte Raspberry Pi 3  
-1 Capteur de mouvement
-1 Feu tricolore (diodes)
-1 Carte SD
-1 Platine d'essai
+1 Capteur de mouvement  
+1 Feu tricolore (diodes)  
+1 Carte SD  
+1 Platine d'essai  
 
 ## Collaborateurs du projet
 Mirah - Stanislas - Jérôme
