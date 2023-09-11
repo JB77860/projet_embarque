@@ -13,22 +13,23 @@ Principe de fonctionnement :
 Mirah - Stanislas - Jérôme
 
 ## Prérequis
-Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3
-Le capteur de présence ainsi que les 3 LED vert, orange, rouge 
-Télécharger un OS et le mettre sur une carte SD pour pouvoir l'installer sur la carte 
+Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3 :
+  Le capteur de présence ainsi que les 3 LED vert, orange, rouge 
+Télécharger un OS et le mettre sur une carte SD pour pouvoir l'installer sur la carte Raspberry Pi 3
 
 ## Liens utilisés
 
 ```
 https://www.raspberrypi.com/software/operating-systems/
 https://www.electro-info.ovh/index.php?id=278
-http://wiringpi.com/download-and-install/
 https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1-7-1-de-raspberry-pi-imager/
 https://github.com/WiringPi/WiringPi
 ```
 
 
 ## Installation
+
+Installation de la bibliothèque WiringPi
 
 
 
