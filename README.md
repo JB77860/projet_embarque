@@ -4,9 +4,9 @@ La société Delta2 aimerait mettre au point un système de détection de prése
 Une carte Raspberry pi3 est utilisée, sur cette carte nous avons un détecteur de mouvement, ainsi qu’un feu tricolore (diodes).
 
 Principe de fonctionnement : 
-Sans détection de présence le feu est vert
-En passant la main devant le détecteur le feu devient orange
-En laissant la main devant le détecteur le feu est rouge.
+* Sans détection de présence le feu est vert
+* En passant la main devant le détecteur le feu devient orange
+* En laissant la main devant le détecteur le feu est rouge.
 
 
 ## Collaborateurs du projet
