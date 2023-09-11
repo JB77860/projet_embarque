@@ -7,7 +7,6 @@ Principe de fonctionnement :
 * En passant la main devant le détecteur le feu devient orange
 * En laissant la main devant le détecteur le feu est rouge.
 
-
 ## Configuration matérielle
 
 1 Carte Raspberry Pi 3  
@@ -15,9 +14,6 @@ Principe de fonctionnement :
 1 Feu tricolore (diodes)  
 1 Carte SD  
 1 Platine d'essai  
-
-## Collaborateurs du projet
-Mirah - Stanislas - Jérôme
 
 ## Prérequis
 1. Effectuer tous les branchements nécessaires sur la carte Raspberry Pi 3 : le capteur de présence ainsi que les 3 LED vert, orange, rouge 
