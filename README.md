@@ -58,15 +58,10 @@ https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1
   ```
 *Aller dans le fichier wiringpi et lancer la commande ./build
 
-*Vérifier l'installation en tapant la commande gpio readall, vous obtiendrez alors ceci :  
+*Vérifier l'installation en tapant la commande gpio readall, vous obtiendrez alors ceci :    
 ![gpio_readall](https://github.com/JB77860/projet_embarque/assets/50988564/55ef0c64-3eff-4617-ad1f-f8e0d4d90df9)
 
 
-## Liens utilisés
-
-```
-https://github.com/WiringPi/WiringPi
-```
 
 
 ## Installation
