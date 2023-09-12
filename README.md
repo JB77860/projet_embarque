@@ -52,7 +52,7 @@ https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1
 
 5. Installation de la bibliothèque WiringPi pour la lecture des ports GPIO
 
-* Faire un git clone de ce repo :
+* Faire un git clone de ce repository :
   ```
   https://github.com/WiringPi/WiringPi.git
   ```
@@ -65,15 +65,15 @@ https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1
 
 
 
-## Installation
+## Utilisation
+
+Vous pouvez alose compiler le code en utilisant le compilateur C++
+```
+g++ custom.cpp
+```
 
 
 
-## Tests
-
-
-
-## Déploiement
 
 
 ## Technologies utilisées
