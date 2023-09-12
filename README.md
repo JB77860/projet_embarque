@@ -116,6 +116,15 @@ Le fichier de config généré, on peut désormais effectuer une première compi
 ```
 make -j16
 ```
+Une fois la compilation terminée, ona va récupérer dans le dossier images l'image générée par le compilateur
+```
+cd output/images/
+```
+![image](https://github.com/JB77860/projet_embarque/assets/50988564/3cf02d97-2f47-4330-bd94-de76c7dcbbc7)
 
 
+On installe Win scp pour pouvoir récupérer l'image sur le serveur AWS sur notre ordinateur
+```
+https://winscp.net/download/WinSCP-6.1.1-Setup.exe
+```
 
