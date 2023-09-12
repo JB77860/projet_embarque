@@ -102,7 +102,7 @@ wget https://buildroot.org/downloads/buildroot-2023.02.4.tar.gz
 tar xf buildroot-2023.02.4.tar.gz
 ```
 
-On crée une copie du dossier buildroot afin de travailler sur celui-ci
+On crée une copie du dossier buildroot afin de travailler dessus
 ```
 cp -R buildroot buildroot-rpi3 
 ```
@@ -112,7 +112,7 @@ On Génère le fichier de config
 make raspberry3_64_defconfig
 ```
 
-Le fichier de config généré, on peut désormais effectuer une perière compilation (option -j pour spécifier le nombre de coeurs utilisés lors de la compilation) 
+Le fichier de config généré, on peut désormais effectuer une première compilation (option -j pour spécifier le nombre de coeurs utilisés lors de la compilation) 
 ```
 make -j16
 ```
