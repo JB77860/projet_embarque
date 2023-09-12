@@ -58,7 +58,7 @@ https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1
   ```
   * Aller dans le fichier wiringpi et lancer la commande ./build
 
-  * Vérifier l'installation en tapant la commande gpio readall, vous obtiendrez alors ceci :   
+  * Vérifier l'installation en tapant la commande gpio readall, vous obtiendrez alors ceci qui liste tous les ports GPIO disponibles:   
   
 ![gpio_readall](https://github.com/JB77860/projet_embarque/assets/50988564/55ef0c64-3eff-4617-ad1f-f8e0d4d90df9)
 
@@ -76,8 +76,46 @@ g++ custom.cpp
 
 
 
-## Technologies utilisées
+## OS Embaraqué
 
-* Langage C++ pour le code
+Nous avons fait le choix de récupérer un OS et de l'alléger au minimum pour le fonctionnement de cette application
+
+* A notre disposition un serveur AWS avec 16 coeurs et 30 Go de RAM
+
+On se connecte via SSH sur notre machine AWS pour compiler une première appli
+
+```
+ssh -i Documents/buildroot__300__0.pem admin@54.153.22.216
+```
+
+Installer unzip et rsync si ils ne le sont pas déjà
+```
+sudo apt install unzip
+sudo apt install rsync
+```
+
+* On crée un dossier dans lequel on se place pour installer buildroot
+* Nous téléchargeons l'archive de la dernière version de Buildroot, et la décompressons
+
+```
+wget https://buildroot.org/downloads/buildroot-2023.02.4.tar.gz
+tar xf buildroot-2023.02.4.tar.gz
+```
+
+On crée une copie du dossier buildroot afin de travailler sur celui-ci
+```
+cp -R buildroot buildroot-rpi3 
+```
+
+On Génère le fichier de config
+```
+make raspberry3_64_defconfig
+```
+
+Le fichier de config généré, on peut désormais effectuer une perière compilation (option -j pour spécifier le nombre de coeurs utilisés lors de la compilation) 
+```
+make -j16
+```
+
 
 
