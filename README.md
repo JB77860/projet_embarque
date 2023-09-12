@@ -69,7 +69,7 @@ https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1
 
 Vous pouvez alose compiler le code en utilisant le compilateur C++
 ```
-g++ custom.cpp lwiringPi -Wall
+g++ -Wall custom.cpp lwiringPi
 ```
 
 
