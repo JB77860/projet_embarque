@@ -69,14 +69,14 @@ https://www.framboise314.fr/installer-raspberry-pi-os-avec-la-nouvelle-version-1
 
 Vous pouvez alose compiler le code en utilisant le compilateur C++
 ```
-g++ custom.cpp
+g++ -Wall custom.cpp lwiringPi
 ```
 
 
 
 
 
-## OS Embaraqué
+## OS Embarqué
 
 Nous avons fait le choix de récupérer un OS et de l'alléger au minimum pour le fonctionnement de cette application
 
