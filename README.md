@@ -116,7 +116,7 @@ Le fichier de config généré, on peut désormais effectuer une première compi
 ```
 make -j16
 ```
-Une fois la compilation terminée, ona va récupérer dans le dossier images l'image générée par le compilateur
+Une fois la compilation terminée, on va récupérer dans le dossier images l'image générée par le compilateur
 ```
 cd output/images/
 ```
